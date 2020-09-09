@@ -89,7 +89,7 @@ public class BoardControllerImpl implements BoardController{
 	
 	 //한 개 이미지 글쓰기
 	// ResponseEntity는 @ResponseBody 어노테이션과 같은 의미로, ResponseEntity를 return Type으로 지정하면 
-	// JSON (default) 또는 Xml Format으로 결과를 내려준다.
+	// JSON (default) 또는 Xml Format으로 결과를 내려준다..
 	@Override
 	@ResponseBody
 	@RequestMapping(value="/board/addNewArticle.do" ,method = RequestMethod.POST)
