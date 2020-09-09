@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="/admin/datavis/dataVisualization" extends="baseLayout">
+       <put-attribute name="title" value="관리자 데이터시각화 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/datavisualization/dataVisualization.jsp" />
+    </definition>
+    
+    <!-- <definition name="/admin/datavis/dataVisualization"
+		template="/WEB-INF/views/admin/datavisualization/dataVisualization.jsp">		
+	</definition> -->
+
+	
+    
+</tiles-definitions>
+
+
